@@ -1,0 +1,126 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b2eea6;
+}
+
+
+.carrito-enlace {
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #f5f0f0;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.carrito-icono {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+}
+
+
+
+
+/* Encabezado */
+header {
+    background-color: #91a008;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 250px;
+    height: 150px;
+    vertical-align: middle;
+}
+
+.logotipo {
+    display: inline;
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+/* Sección de Video */
+#video {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+video {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+/* Cartera de Productos */
+
+
+
+#productos {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.producto {
+    display: inline-block;
+    width: 20%;
+    margin: 1%;
+    text-align: center;
+    background-color: #e1ebe9;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(215, 231, 213, 0.1);
+}
+
+.producto img {
+    width: 50%;
+    height: auto;
+}
+
+.producto h3 {
+    margin: 10px 0;
+}
+
+/* Formulario de Contacto */
+#contacto {
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
